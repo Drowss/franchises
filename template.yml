@@ -23,9 +23,8 @@ Resources:
             Method: any
       Environment:
         Variables:
-          DB_URL: ${DB_URL}
-          DB_USERNAME: ${DB_USERNAME}
-          DB_PASSWORD: ${DB_PASSWORD}
+          DATABASE_SECRETS: ${DATABASE_SECRETS}
+          AWS_SECRETS_REGION: ${AWS_SECRETS_REGION}
 
 Outputs:
   FranchisesApi:

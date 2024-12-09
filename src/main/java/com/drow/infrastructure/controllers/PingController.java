@@ -1,4 +1,4 @@
-package com.drow.infrastructure.enpoints;
+package com.drow.infrastructure.controllers;
 
 
 import org.springframework.web.bind.annotation.*;
