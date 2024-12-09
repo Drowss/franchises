@@ -21,6 +21,11 @@ Resources:
           Properties:
             Path: /{proxy+}
             Method: any
+      Environment:
+        Variables:
+          DB_URL: ${DB_URL}
+          DB_USERNAME: ${DB_USERNAME}
+          DB_PASSWORD: ${DB_PASSWORD}
 
 Outputs:
   FranchisesApi:
